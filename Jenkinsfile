@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('Install and start apchace2') {
+    stage('Install and start apache') {
       steps {
         sh '''sudo apt-get install apache2 -y
 sudo service apache2 start'''
